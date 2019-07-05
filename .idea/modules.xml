@@ -3,6 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/JD2-61-19-master.iml" filepath="$PROJECT_DIR$/.idea/JD2-61-19-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lesson2/root/console/console.iml" filepath="$PROJECT_DIR$/lesson2/root/console/console.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lesson2/root/root.iml" filepath="$PROJECT_DIR$/lesson2/root/root.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lesson2/root/service/service.iml" filepath="$PROJECT_DIR$/lesson2/root/service/service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lesson2/root/serviceimpl/service-impl.iml" filepath="$PROJECT_DIR$/lesson2/root/serviceimpl/service-impl.iml" />
     </modules>
   </component>
 </project>
