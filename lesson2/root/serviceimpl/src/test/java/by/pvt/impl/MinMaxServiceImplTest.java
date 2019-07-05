@@ -59,14 +59,36 @@ public class MinMaxServiceImplTest {
 
     @org.junit.Test
     public void findMax() {
-        // given
+        List<Integer> test1 = List.of(3, 1, 2);
 
         // when
-        //objUnderTest.
+        Integer result = objUnderTest.findMax(test1);
 
         // then
-        //assertEquals(true, false);
+        assertEquals(Integer.valueOf(3), result);
     }
+
+
+    @org.junit.Test(expected = Exception.class)
+    public void findMaxWithException() {
+        // given
+        List<Integer> test1 = List.of();
+
+        // when
+        objUnderTest.findMax(test1);
+    }
+
+    @org.junit.Test(expected = RuntimeException.class)
+    public void findMaxithNotEmptyList() {
+        // given
+        List<Integer> test1 = new ArrayList<>();
+        test1.add(null);
+        test1.add(null);
+
+        // when
+        objUnderTest.findMax(test1);
+    }
+
 
 
 }
